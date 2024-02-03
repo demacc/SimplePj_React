@@ -1,0 +1,41 @@
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family:  sans-serif;
+    
+}
+.container h2{
+    font-size: 70px;
+    color: #1F2544;
+}
+.container .time-container {
+    color: #474F7A;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.time-container span {
+    margin-right:10px ;
+}
+.btn-container button{
+    padding: 10px 20px;
+    margin-right:10px ;
+    color:#fff;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+
+.btn-container button:nth-of-type(1){
+    background-color: rgb(4, 31, 4);
+}
+.btn-container button:nth-of-type(2){
+    background-color: rgb(72, 6, 6);
+}
+.btn-container button:nth-of-type(3){
+    background-color: yellowgreen;
+}
+.btn-container button:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
